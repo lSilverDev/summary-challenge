@@ -51,6 +51,8 @@
       background: var(--Light-slate-blue-background);
       background: linear-gradient(0deg, var(--Light-royal-blue-background) 44%, var(--Light-slate-blue-background) 86%);
       border-radius: 20px;
+      width: 20em;
+      padding: 1em 0;
     }
 
     .container__result-title{
@@ -91,6 +93,18 @@
       color: var(--color-white-t);
     }
 
+    .result-text{
+      font-weight: var(--font-weight-7);
+    }
+
+    .container__result-paragraph-box{
+      width: 90%;
+    }
+
+    .result-paragraph-text-align{
+      text-align: center;
+      color: var(--color-white-t);
+    }
 
     
     .attribution { font-size: 11px; text-align: center; }
@@ -106,8 +120,10 @@
             <p class="container__result-paragraph result-total-value">76</p>
             <p class="container__result-paragraph result-of-value">of 100</p>
           </div>
-          <p class="container__result-title">Great</p>
-          <p class="container__result-paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+          <p class="container__result-title result-text">Great</p>
+          <div class="container__result-paragraph-box">
+            <p class="container__result-paragraph result-paragraph-text-align">You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
       </div>
       <div class="section__sumarry">
         <p class="section__sumarry-title">Summary</p>
