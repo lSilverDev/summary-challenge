@@ -1,0 +1,84 @@
+.section__sumarry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    width: 20em;
+    padding: 1em 0;
+    font-size: var(--Font-size-paragraph);
+}
+
+.section__sumarry-title{
+    font-size: var(--Font-size-paragraph);
+}
+
+.section__sumarry-row{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: .5em;
+    padding: 0 1em 0 1em;
+    border-radius: 5px;
+    background: white;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.section__sumarry-img-tag{
+    display: flex;
+    align-items: center;
+}
+
+.section__sumarry-p{
+    padding-left: .2em;
+}
+
+.reaction-row{
+    background-color: hsla(0, 100%, 67%, 0.137);
+}
+
+.memory-row{
+    background-color: hsl(39, 100%, 56%, 0.137);
+}
+
+.verbal-row{
+    background-color: hsl(166, 100%, 37%, 0.137);
+}
+
+.visual-row{
+    background-color: hsl(234, 85%, 45%, 0.137);
+}
+
+.reaction{
+    color: var(--Light-red);
+}
+
+.memory{
+    color: var(--Orangey-yellow);
+}
+
+.verbal{
+    color: var(--Green-teal);
+}
+
+.visual{
+    color: var(--Cobalt-blue);
+}
+
+.section__sumarry-grade{
+
+}
+
+.section__sumarry-grade-sec{
+    color: var(--color-black-t);
+}
+
+.section__sumarry-btn{
+    font-size: var(--Font-size-paragraph);
+    border-radius: 2em;
+    width: 75%;
+    padding: 1em;
+    background: var(--Dark-gray-blue);
+    color: var(--color-white);
+    margin: 1em;
+}

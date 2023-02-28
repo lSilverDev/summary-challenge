@@ -1,8 +1,10 @@
 @import url(./styles/result.css);
+@import url(./styles/summary.css);
 
 :root{
     --color-white: hsl(0, 0%, 100%);
     --color-white-t: hsla(0, 0%, 100%, 0.301);
+    --color-black-t: hsla(0, 0%, 0%, 0.322);
     --Light-red: hsl(0, 100%, 67%);
     --Orangey-yellow: hsl(39, 100%, 56%);
     --Green-teal: hsl(166, 100%, 37%);
