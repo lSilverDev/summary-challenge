@@ -11,6 +11,7 @@
   <style>
     :root{
       --color-white: hsl(0, 0%, 100%);
+      --color-white-t: hsla(0, 0%, 100%, 0.301);
       --Light-red: hsl(0, 100%, 67%);
       --Orangey-yellow: hsl(39, 100%, 56%);
       --Green-teal: hsl(166, 100%, 37%);
@@ -61,17 +62,37 @@
       background: var(--Light-slate-blue-background);
       background: linear-gradient(0deg, var(--Violet-blue-circle) 44%, var(--Persian-blue-circle) 86%);
       border-radius: 100%;
+      width: 8em;
+      height: 8em;
     }
 
-
-
-
-
+    .container__result-circle{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+  
     .container__result-paragraph{
       color: var(--color-white);
       font-size: var(--Font-size-paragraph);
+      display: flex;
+      flex-direction: row;
+      margin: 0 1em 0 1em;
     }
 
+    .result-total-value{
+      font-size: 36px;
+      font-weight: var(--font-weight-7);
+    }
+
+    .result-of-value{
+      color: var(--color-white-t);
+    }
+
+
+    
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -82,8 +103,8 @@
       <div class="container__result">
           <p class="container__result-title">Your result</p>
           <div class="container__result-circle">
-            <p class="container__result-paragraph">76</p>
-            <p class="container__result-paragraph">of 100</p>
+            <p class="container__result-paragraph result-total-value">76</p>
+            <p class="container__result-paragraph result-of-value">of 100</p>
           </div>
           <p class="container__result-title">Great</p>
           <p class="container__result-paragraph">You scored higher than 65% of the people who have taken these tests.</p>
