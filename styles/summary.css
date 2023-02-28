@@ -82,3 +82,7 @@
     color: var(--color-white);
     margin: 1em;
 }
+
+.section__sumarry-btn:hover{
+    background: linear-gradient(0deg, var(--Light-royal-blue-background) 44%, var(--Light-slate-blue-background) 86%);
+}
