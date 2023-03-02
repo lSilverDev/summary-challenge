@@ -18,8 +18,8 @@
     background: var(--Light-slate-blue-background);
     background: linear-gradient(0deg, var(--Violet-blue-circle) 44%, var(--Persian-blue-circle) 86%);
     border-radius: 100%;
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
   }
 
   .container__result-circle{
@@ -39,7 +39,7 @@
   }
 
   .result-total-value{
-    font-size: 36px;
+    font-size: 48px;
     font-weight: var(--font-weight-7);
   }
 
@@ -58,4 +58,5 @@
   .result-paragraph-text-align{
     text-align: center;
     color: var(--color-white-t);
+    padding: 0 0 1em 0;
   }
